@@ -1,6 +1,6 @@
 module Main where
 
-import Moon ( runCLI )
+import Moon.CLI ( runCLI )
 
 main :: IO ()
 main = runCLI

@@ -8,17 +8,17 @@ homepage:            https://github.com/jerbaroo/moon
 -- bug-reports:
 license:             BSD-3-Clause
 license-file:        LICENSE
-author:              jerbaroo
+author:              Jeremy Barisch-Rooney
 maintainer:          jerbaroo.work@pm.me
 -- copyright:
 category:            Development
 extra-source-files:  CHANGELOG.md, README.org
 
 library
-  exposed-modules:     Moon
+  exposed-modules:     Moon, Moon.CLI, Moon.Pretty, Moon.Types
   -- other-modules:
   -- other-extensions:
-  build-depends:       base, containers, pretty-simple, text
+  build-depends:       base, text
   hs-source-dirs:      src
   default-language:    Haskell2010
 
